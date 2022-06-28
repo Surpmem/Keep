@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(250,250,250);
+}
+.head{
+	width: 375px;
+	height: 60px;
+	background: rgb(90,77,99);
+}
+.t1{
+	width: 20px;
+	margin: 15px;
+}
+.head span{
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: -20px;
+}
+/*开始第一部分*/
+.part1{
+	width: 375px;
+	height: 150px;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	background: white;
+}
+.part1 img{
+	width: 30px;
+	margin-top: 40px;
+	margin-right: 120px;
+}
+.part1 span{
+	display: inline-block;
+	height: 10px;
+	font-size: 15px;
+	top: 50px;
+	left: 150px;
+	position: absolute;
+}
+.part1 p{
+	font-size: 14px;
+	color: gray;
+}
+/*第二部分*/
+.part2{
+	width: 375px;
+	height: 700px;
+	background: white;
+	margin-top: 10px;
+	position: relative;
+}
+.sj1{
+	font-size: 15px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+.sj2{
+	font-size: 13px;
+	color: gray;
+	position: absolute;
+	top: 20px;
+	left: 130px;
+}
+.pp img{
+	width: 15px;
+	float: right;
+	margin-top: 20px;
+}
+.part2 ul{
+	list-style: none;
+	position: absolute;
+	top: 70px;
+	left: 40px;
+}
+.part2 ul li{
+	width: 335px;
+	height: 60px;
+	border-bottom: 1px solid #F1F1F1;
+	position: relative;
+}
+.tt{
+	width: 25px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.tz{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.szz{
+	float: right;
+	font-weight: bold;
+	margin-right: 50px;
+	margin-top: 15px;
+	
+}
+.tzz{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.gl{
+	position: absolute;
+	margin-top: 580px;
+	margin-left: 120px;
+}
+/*底部*/
+.foot{
+	height: 100px;
+}

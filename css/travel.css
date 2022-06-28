@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+body{
+	background: rgb(250,250,250)
+}
+header{
+	position: fixed;
+	width: 375px;
+	height: 110px;
+	background: white;
+	z-index: 2;
+}
+.head{
+	height: 50px;
+	margin-bottom: 10px;
+}
+header label{
+	display: block;
+	width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	float: left;
+	margin: 8px 6px;
+}
+.ht1{
+	float: right;
+	padding: 8px 6px;
+	margin-right: 2px;
+	margin-top: -40px;
+	width: 5%;
+	position: relative;
+}
+header ul{
+	display: -webkit-box;
+	overflow: auto;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+header ul li{
+	list-style: none;
+	display: block;
+	width: 60px;
+	height: auto;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 5px;
+}
+header ul li a{
+	text-decoration: none;
+	margin-right: 2px;
+	color: gray;
+}
+.ht2{
+	width: 10%;
+	position: absolute;
+	float: right;
+	right: 5px;
+	top: 64px;
+	padding-bottom: 5px;
+}
+/*设置一个伪类*/
+header ul li a:hover{
+	color: #000000;
+}
+
+/*第一块*/
+.body{
+	width: 375px;
+	height: auto;
+	position: relative;
+	top: 120px;
+	background: white;
+}
+.body p.p1{
+	font-size: 12px;
+	padding: 10px 8px;
+	color: darkgrey;
+}
+.body .p2{
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	padding: 6px 8px;
+	font-weight: bold;
+}
+.body img{
+	width: 5%;
+	float: right;
+	height: auto;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+/*第二块*/
+div.mb{
+	margin-top: 130px;
+	position: relative;
+	width: 375px;
+	height: 250px;
+	background: white;
+}
+.zs{
+	width: 350px;
+	height: 180px;
+	margin: 6px 10px;
+	background: blueviolet;
+	border-radius: 10px;
+	position: relative;
+}
+div.mb p.wdmb{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	
+	display: block;
+	padding: 8px 8px;
+}
+div.mb p.mzpwgl{
+	font-size: 23px;
+	font-family: "微软雅黑";
+	color: white;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+p.kqwddyt{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: white;
+	font-family: "微软雅黑";
+}
+.zs p img{
+	position: absolute;
+	width: 25px;
+	height: auto;
+	right: 50px;
+	top: 35px;
+}
+.user{
+	font-size: 15px;
+	width: 320px;
+	height: 28px;
+	margin: 18px 6px 3px;
+	padding: 6px 6px;
+	border: #000000;
+	border-radius: 25px;
+	
+}
+
+.icon-user{
+	position: absolute;
+	z-index:1;
+	width: 30px;
+	height: auto;
+	float: right;
+	right: 40px;
+	top: 115px;
+}
+div.gg{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	background: white;
+	position: relative;
+}
+div.kc{
+	height: 50px;
+	border-bottom: 1px solid #F1F1F1;
+	margin: 10px auto;
+	padding: 20px 5px;
+	
+}
+.kc label{
+	font-size: 18px;
+	display: block-inline;
+	width: 100%;
+	height:auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	
+	
+}
+div.gg div.kc input{
+	font-size: 17px;
+	font-family: "宋体";
+	background: limegreen;
+	float: right;
+	margin-top: -25px;
+	padding: 5px 20px;
+	border-radius: 25px;
+	color: white;
+	border-style: none;
+}
+div.gg div.kcc{
+	border-bottom: 1px solid #F1F1F1;
+	margin-top: 40px;
+	height: 80px;
+}
+div.gg div.kcc span.sp1{
+	font-size: 19px;
+	font-family: "微软雅黑";
+	margin-left: 10px;
+}
+div.gg div.kcc span.sp2{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	float: right;
+	padding-top: 20px;
+	margin-right: 10px;
+}
+div.gg div.kcc span.sp3{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: grey;
+	margin-left: 10px;
+}
+/*底部导航栏*/
+footer{
+	width: 375px;
+	height: 80px;
+	bottom: 0px;
+	margin-top: 260px;
+	background: white;
+	position: fixed;
+}
+
+footer ul{
+	text-align: center;
+	list-style: none;
+}
+footer ul li{
+	display: block;
+	width: 75px;
+	height: auto;
+	float: left;
+	list-style: none;
+	margin: 2px 0px;
+}
+footer ul li:hover{
+	color: white;
+	background: #F1F1F1;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+footer ul li img{
+	width: 40%;
+	padding:10px 5px 3px;
+}
+

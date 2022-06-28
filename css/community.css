@@ -1,0 +1,150 @@
+*{margin: 0;padding: 0;}
+body{background-color: rgb(250,250,250);}
+.header{
+	position: fixed;
+	top: 0;
+	width: 375px;
+	height: 110px;
+	/*border-bottom:0px solid #A9A9A9;*/
+	background: white;
+	z-index: 6;
+}
+.headdd{
+	height: 100px;
+	position: relative;
+}
+.head{
+	height: 50px;
+	margin-bottom: 10px;
+}
+.header label{
+	width: 100%;
+	float: left;
+	padding: 8px 6px;
+	font-size:18px;
+	font-weight: bold;
+}
+.header img{
+	float: right;
+	padding: 8px 6px;
+	margin-right: 10px;
+	margin-top: -40px;
+	width: 5%;
+}
+.header ul{
+	display: -webkit-box;
+	overflow: auto;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 10px;
+	
+}
+
+.header a{
+	font-size: 15px;
+	display: block;
+	width: 55px;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: darkgray;
+	text-align: center;
+	margin-right: 80px;
+	margin-left: 40px;
+}
+/*设置一个伪类*/
+.header a:hover{
+	color: #000;
+}
+a:visited{
+  		text-decoration:none;
+        color:black;
+}
+a:hover{
+		color: #FF7F50;
+} 
+
+/*开始内容*/
+.tk{
+	width: 375px;
+	height: 600px;
+	position: relative;
+}
+div.tk .p1{
+	font-size: 14px;
+	padding: 3px;
+}
+div.tk .p2{
+	font-size: 12px;
+	margin:1px 2px;
+	color: #CCCCCC;
+}/*文字*/
+#za{
+	width: 165px; 
+	border: 1px solid #ccc;
+	float: left;
+	margin: 10px;
+	background-color: white;
+	line-height: 20px;
+	position: relative;
+	}
+#za span.as{
+	font-size: 15px;
+	font-weight: bold;
+}
+#za:hover {
+    border: 1px solid #777;
+}
+#za img{
+	width: 100%;
+	height: auto;
+}
+div#aa{
+	width: 165px;
+	border: 1px solid #ccc;
+	float: right;
+	margin: 10px;
+	background-color: white;
+	line-height: 20px;
+	}
+#aa img{
+	width: 100%;
+	height: auto;
+}
+#aa:hover {
+    border: 1px solid #777;
+}
+/*底部导航栏*/
+footer{
+	width: 375px;
+	height: 80px;
+	bottom: 0px;
+	margin-top: 260px;
+	background: white;
+	position: fixed;
+}
+
+footer ul{
+	text-align: center;
+	list-style: none;
+}
+footer ul li{
+	display: block;
+	width: 75px;
+	height: auto;
+	float: left;
+	list-style: none;
+	margin: 2px 0px;
+}
+footer ul li:hover{
+	color: white;
+	background: #F1F1F1;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+footer ul li img{
+	width: 40%;
+	padding:10px 5px 3px;
+}
+

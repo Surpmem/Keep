@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	width: 375px;
+	height: 60px;
+	background: rgb(90,77,99);
+}
+.t1{
+	width: 20px;
+	margin: 15px 10px 15px 15px;
+}
+.head span{
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: -15px;
+}
+.part{
+	width: 375px;
+	height: 350px;
+	background: rgb(250,250,250);
+	text-align: center;
+}
+.part img{
+	width: 150px;
+	margin: 80px 100px 0px;
+}
+.part p{
+	font-size: 15px;
+	color: gray;
+}
+.part input{
+	width: 100px;
+	background: rgb(36,199,137);
+	border: none;
+	border-radius: 15px;
+	color: white;
+	font-size: 13px;
+	padding: 10px 15px;
+}
+/*下一部分*/
+.part2{
+	margin: 10px auto 0px;
+}
+.sp1{
+	margin: 10px;
+	padding: 15px;
+	font-size: 15px;
+}
+.part2 ul{
+	white-space:nowrap;
+	
+	margin-top: 10px;
+	display: -webkit-box;
+	overflow: auto;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0px;
+}
+.part2 ul:-webkit-scrollbar {
+            background-color: transparent;
+        }
+.part2 li{
+	display: inline-block;
+	width: 120px;
+	height: 150px;
+	margin: 10px;
+}
+.part2 li img{
+	width: 100%;
+}
+.sp2{
+	font-size: 12px;
+}
+.sp3{
+	font-size: 10px;
+	color: gray;
+}

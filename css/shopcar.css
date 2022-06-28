@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.head{
+	width: 375px;
+	height: 60px;
+	background: rgb(90,77,99);
+}
+.t1{
+	width: 20px;
+	margin: 15px;
+}
+.head span{
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: -20px;
+}
+.bod{
+	width: 375px;
+	
+}
+.bod img{
+	width: 100%;
+}
+/*下面部分*/
+.cn{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.part ul{
+	list-style: none;
+	
+}
+.part li{
+	display: inline-block;
+	width: 165px;
+	margin: 10px 10px;
+}
+.part img{
+	width: 100%;
+}
+.bt{
+	font-size: 15px;
+	padding-top: 10px;
+}
+.jg{
+	font-size: 15px;
+	color: red;
+	padding-top: 5px;
+}

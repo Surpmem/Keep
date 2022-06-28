@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(250,250,250);
+}
+.head{
+	width: 375px;
+	height: 60px;
+	background: rgb(90,77,99);
+}
+.t1{
+	width: 25px;
+	margin: 15px;
+}
+.head span{
+	font-size: 20px;
+	color: white;
+	position: relative;
+	top: -20px;
+}
+.hea{
+	height: 50px;
+	background: white;
+	border-bottom: 1px solid rgb(249,249,249);
+}
+.hea ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.hea li{
+	display: inline-block;
+	width: 35px;
+	margin: 10px;
+	color: gray;
+}
+.hea li:hover{
+	color:#000000;
+}
+/*下半部分*/
+.part1{
+	width: 375px;
+	height: 125px;
+	background: white;
+	margin-top: 5px;
+	position: relative;
+}
+.tt1{
+	width: 100px;
+	margin: 10px;
+	
+}
+.part1 p{
+	font-size: 14px;
+	position: absolute;
+	left: 130px;
+	top: 20px;
+}
+.tt2{
+	width: 20px;
+	border-radius: 50px;
+	position: absolute;
+	top: 80px;
+	left: 130px;
+}
+.part1 span{
+	font-size: 15px;
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	color: gray;
+}

@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(249,249,249);
+}
+.head{
+	width: 375px;
+	height: 60px;
+	background: rgb(90,77,99);
+}
+.t1{
+	width: 20px;
+	margin: 15px;
+}
+.head span{
+	padding: 5px 18px;
+}
+.sp1,.sp2{
+	font-size: 18px;
+	color: gray;
+	position: relative;
+	left: 10px;
+	top: -15px;
+}
+.sp1:hover{
+	color: white;
+}
+.sp2:hover{
+	color: white;
+}
+
+.sp3{
+	color: forestgreen;
+	font-size: 15px;
+	position: relative;
+	top: -15px;
+	
+}
+/*第二部分*/
+.hea{
+	height: 50px;
+	background: white;
+	border-bottom: 0px solid gray;
+}
+.hea ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.hea li{
+	display: inline-block;
+	width: 70px;
+	margin: 10px;
+	
+}
+/*下一部分*/
+.gg{
+	width: 100%;
+	height: 100px;	
+	position: relative;
+}
+
+.kcc{
+	border-bottom: 1px solid #F1F1F1;
+	margin-top: 40px;
+	height: 100px;
+}
+.sp4{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin-left: 10px;
+	
+}
+.sp5{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	float: right;
+	padding-top: 20px;
+	margin-right: 10px;
+}
+.sp6{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: grey;
+	margin-left: 10px;
+}

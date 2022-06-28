@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(249,249,249);
+}
+.head{
+	width: 375px;
+	height: 310px;
+	background: rgb(51,51,51);
+	position: relative;
+}
+.jt1{
+	width: 25px;
+	margin: 10px;
+}
+.sp1{
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 30px;
+}
+.t1{
+	width: 25px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+	border: 1px solid gray;
+	border-radius: 25px;
+}
+.sp2{
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+}
+.head p{
+	font-size: 20px;
+	color: white;
+	position: relative;
+	top: 90px;
+	left: 30px;
+}
+.head p span{
+	font-size: 15px;
+}
+.a2{
+	font-size: 13px;
+	color:rgb(112,197,170);
+	text-decoration: none;
+	position: absolute;
+	top: 100px;
+	right: 25px;
+}
+.t2{
+	top: 93px;
+	right: 5px;
+	position: absolute;
+	float: right;
+}
+.u1{
+	margin-top: 110px;
+	text-align: center;
+}
+.u1 li{
+	display: inline-block;
+	font-size: 16px;
+	color: rgb(119,119,119);
+	width: 110px;
+}
+.u2{
+	margin-top: 20px;
+	text-align: center;
+}
+.u2 li{
+	display: inline-block;
+	font-size: 16px;
+	color: white;
+	width: 110px;
+}
+/*第一部分*/
+.pa1{
+	z-index: 5;
+	width: 350px;
+	height: 150px;
+	margin: -20px 10px 0;
+	background: white;
+	border-radius:10px ;
+	position: relative;
+}
+.pa1 span{
+	font-size: 17px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.pa1 input{
+	width: 80px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	background: rgb(36,199,137);
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	padding: 6px 8px;
+}
+.pa1 p.mb{
+	font-size: 15px;
+	color: rgb(153,153,153);
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+.u3{
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	text-align: center;
+}
+.u3 li{
+	display: inline-block;
+	width: 40px;
+	height: auto;
+	font-size: 10px;
+	color: rgb(153,153,153);
+	border: 1px solid rgb(153,153,153);
+	border-radius: 50px;
+}
+.u4{
+	position: absolute;
+	top: 110px;
+	left: 20px;
+	text-align: center;
+}
+.u4 li{
+	display: inline-block;
+	width: 40px;
+	font-size: 15px;
+	color: rgb(153,153,153);
+	border-radius: 25px;
+}
+/*第二部分*/
+.pa2{
+	width: 350px;
+	height: 150px;
+	margin: 10px 10px 0;
+	background: white;
+	border-radius:10px ;
+	position: relative;
+}
+.t3{
+	width: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.sp4{
+	font-size: 16px;
+	position: absolute;
+	top: 25px;
+}
+.t4{
+	width: 60px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+.pa2 p{
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	left: 30px;
+	top: 80px;
+}
+.pa2 p span{
+	font-size: 18px;
+	color: gray;
+	
+}
+/*第三部分*/
+.pa3{
+	width: 350px;
+	height: 150px;
+	margin: 10px 10px 0px;
+	background: white;
+	border-radius:10px ;
+	position: relative;
+}
+.sp5{
+	font-size: 16px;
+	position: absolute;
+	top: 25px;
+	left: 60px;
+}
+.sp6{
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 120px;
+	border: 1px solid gainsboro;
+	padding: 5px 8px;
+	border-radius: 15px;
+	
+}
+.t5{
+	width: 100%;
+}
+/*第四部分*/
+.pa4{
+	width: 350px;
+	height: 150px;
+	margin: 70px 10px 10px;
+	background: white;
+	border-radius:10px ;
+	position: relative;
+}
+.foot{
+	height: 50px;
+}
